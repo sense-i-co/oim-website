@@ -28,12 +28,13 @@
     background-color: #C62127;
     width: 100px;
     opacity: 1 !important;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .ServicesHeading{
     color: #4C4C4C;
+    font-family: roboto-light;
     font-size: 20px;
     text-align: justify;
 }
@@ -65,7 +66,7 @@
     margin-right: 0;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 10px 10px 10px 10px grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .ServicesCard3{
@@ -108,7 +109,7 @@
 .ServicesImage{
     width: 100%;
     height: fit-content;
-    padding-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .ServicesUrl{
@@ -118,7 +119,7 @@
 .ServicesTextBox{
     border-bottom: none;
     padding-bottom: 0px;
-    height:80px;
+    height:70px;
 }
 
 .ServiceImageHr{
@@ -132,7 +133,8 @@
 .ServicesText1{
     color:#1E3C6E;
     font-size: 24px;
-    font-weight: 800;
+    font-family: roboto-boldcondensed;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 0px;
     padding-top: 17px;
@@ -172,7 +174,7 @@
   right: 100%;
   bottom: 0;
   background: #C81E28;
-  height: 4px;
+  height: 6px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;

@@ -632,6 +632,10 @@ progress {
   margin-left: auto;
 }
 
+.container-fluid {
+  margin-top: -5px;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
@@ -4620,7 +4624,6 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #4e5d6c;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0;
 }
 
