@@ -64,7 +64,7 @@ body {
 }
 
 hr {
-  margin: 1rem 0;
+  margin: 2.5rem 0;
   color: inherit;
   background-color: currentColor;
   border: 0;
@@ -4246,8 +4246,6 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
