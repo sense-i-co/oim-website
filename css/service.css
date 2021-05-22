@@ -1,0 +1,185 @@
+
+.ServicesBackground{
+    /* background-color: gray; */
+    width: 100%;
+}
+
+.ServicesPanel{
+    background-color: white;
+    /* max-width: 1500px; */
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.ServicesHeader{
+    margin-bottom: 50px;
+}
+
+.ServicesTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.ServicesShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ServicesHeading{
+    color: #4C4C4C;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+.font-icon{
+    font-size: 20px;
+    color: #006699;
+    font-weight: 800;
+}
+
+.ServicesGrid{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.ServicesCard1{
+    margin-left: 8%;
+    margin-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 12px 10px grey;
+}
+
+.ServicesCard2{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.ServicesCard3{
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 12px 10px grey;
+}
+
+@media screen and (max-width: 700px) {
+    .ServicesCard1{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+    .ServicesCard2{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+    .ServicesCard3{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+}
+
+.ServicesCardBody{
+    padding: 0px !important;
+    text-align: center;
+}
+
+.ServicesImage{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 4px;
+}
+
+.ServicesUrl{
+    cursor: pointer;
+}
+
+.ServicesTextBox{
+    border-bottom: none;
+    padding-bottom: 0px;
+    height:80px;
+}
+
+.ServiceImageHr{
+    margin-top: 0px;
+    height: 4px !important;
+    background-color: transparent;
+    margin-bottom: 0px;
+    opacity:1 !important;
+}
+
+.ServicesText1{
+    color:#1E3C6E;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.ServicesText2{
+    color:#006699;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.ServicesTextBoxIcon{
+    font-size: 75px;
+    color: white;
+    margin-top: -45px;
+    position: relative;
+    height: 50px;
+}
+
+.ServicesCardBody {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.ServicesCardBody:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C81E28;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.ServicesCardBody:hover:before, .ServicesCardBody:focus:before, .ServicesCardBody:active:before {
+  right: 0;
+}

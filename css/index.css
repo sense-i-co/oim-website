@@ -1,0 +1,510 @@
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-boldcondensed;
+    src: url(../Fonts/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-condensed;
+    src: url(../Fonts/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+p{
+    font-family: roboto-regular;
+}
+
+div{
+    font-family: roboto-condensed;
+}
+
+h2{
+    font-family: roboto-regular;
+}
+
+h1{
+    font-family: roboto-condensed;
+}
+
+h3{
+    font-family: roboto-condensed;
+}
+
+h4{
+    font-family: roboto-condensed;
+}
+
+h5{
+    font-family: roboto-condensed;
+}
+
+h6{
+    font-family: roboto-condensed;
+}
+
+span{
+    font-family: roboto-condensed;
+}
+.body{
+    background-color: white !important;
+    width: 100% !important;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+.HomeNavbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white !important;
+}
+
+.HomeMenu{
+    padding-top: 85px;
+    padding-left: 0px;
+    height: 132px;
+}
+
+.HomeLogo{
+    margin-left: 103px;
+    margin-right: 90px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 290px;
+
+}
+
+.HomeLogoImage{
+    width:290px;
+}
+
+.HomeLogoSmall{
+    display: none;
+}
+
+.Loginfont{
+    font-size:14px;
+}
+
+@media screen and (max-width: 1122px) {
+    .HomeLogo{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+        display: none;
+    }
+    .HomeLogoSmall{
+        display: block;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .HomeLogo{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+        display: none;
+    }
+    .HomeLogoSmall{
+        display: block;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+    }
+    .HomeActive{
+        display: none;
+    }
+    .HomeRight{
+        width: 100%;
+        padding-right: 10px !important;
+    }
+    .HomeHeader {
+        width: 100%;
+        height: 380px !important;
+    }
+    .HomeHeaderTitle{
+        font-size: 24px !important;
+        padding-top: 10% !important;
+        margin-left: 25px !important;
+        font-weight: 900 !important;
+    }
+    .HomeHeaderShape{
+        margin-left: 25px !important;
+        padding-top: 5px !important;
+        background-color: red !important;
+        opacity: 1;
+        width: 10%;
+    }
+    .HomeHeaderText2{
+        margin-left: 25px !important;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        padding-top: 40px !important;
+    }
+    .HomeContent{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    .HomeHeaderUnder{
+        background-color: #007399;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -40px !important;
+    }
+    .HomeHeaderUnderText1{
+        font-size: 18px !important;
+        font-weight: 800;
+        text-align: justify;
+    }
+    .HomeHeaderUnderText2{
+        font-size: 18px !important;
+        margin-top: 40px !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 40px !important;
+        text-align: justify;
+    }
+    .HomeHeaderUnderImage{
+        width: 100%;
+        height: 20vh !important;
+    }
+    .HomeHeaderUnderText3{
+        font-size: 18px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #004d99;
+        text-align: justify;
+    }
+
+    .ContentImageBox{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10px !important;
+    }
+
+    .Footer{
+        margin-top: -30px !important;
+        background-color: #10537c;
+    }
+
+    .FooterMark{
+        padding-top: 30px !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        width: 100%;
+    }
+
+    .FooterIcons{
+        text-align: center;
+        margin-top: 30px !important;
+    }
+
+    .HomeConnect{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.ServicesBox{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.HomeRight{
+    width: 100%;
+    padding-right: 0px;
+}
+
+.HomeNavbarLink1{
+    text-align: center;
+}
+
+.HomeNavbarLink2{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+.HomeNavbarLink3{
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.HomeNavbarLink4{
+    text-align: center;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+
+.HomeNavbarLink5{
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+.HomeNavbarLink6{
+    text-align: center;
+    padding-left: 24px;
+}
+
+
+.HomeNavbarText{
+    text-transform: uppercase;
+    color: #1E3C6E;
+    font-weight: 800;
+    font-family: roboto-condensed;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+.HomeHeaderImage{
+    width: 100%;
+    height: 800px;
+}
+
+.HomeActive{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: red;
+    height: 7px !important;
+    opacity: 1 !important;
+}
+
+.HomeNavbarLogin{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 11px;
+    margin-top: -12px;
+    font-size: 20px;
+    background-color: #006699;
+    border-radius: 10px 10px 0% 0%;
+}
+.HomeNavbarPadding{
+    padding-bottom: 0px;
+}
+
+.HomeIcon{
+    font-size: 24px !important;
+    margin-left: 5px;
+
+}
+
+.HomeHeader{
+    background-image: url('../images/home_banner.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HomeHeaderTitle{
+    font-size: 60px;
+    padding-top: 10%;
+    margin-left: 100px;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #333333;
+}
+
+.HomeHeaderShape{
+    margin-left: 100px;
+    padding-top: 5px;
+    background-color: red;
+    opacity: 1;
+    width: 10%;
+}
+
+.HomeHeaderText2{
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-shadow: 2px 2px 6px #333;
+}
+
+.HomeContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.HomeHeaderUnder{
+    background-color: #1F7DAE;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-top: -90px;
+}
+
+.HomeHeaderUnderText1{
+    font-size: 20;
+    font-weight: 600;
+}
+
+.HomeHeaderUnderText2{
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: roboto-regular;
+    font-weight: 100;
+}
+
+.HomeHeaderUnderImage{
+    width: 100%;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.image-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.HomeHeaderUnderText3{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 30px;
+    background-color: #1E3C6E;
+}
+
+.ContentImageBox{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+}
+
+.ContentImage{
+    width: 100%;
+
+}
+
+.Footer{
+    margin-top: -100px;
+    background-color: #0d3a70;
+}
+
+.FooterMarks{
+    text-align: center;
+}
+
+.FooterMark{
+    padding-top: 100px;
+    padding-left: 22%;
+    padding-right: 22%;
+    width: 100%;
+}
+.FooterMark1{
+    padding-top: 20px;
+}
+
+.FooterMark2{
+    padding-top: 20px;
+}
+.FooterMark3{
+    padding-top: 23px;
+}
+
+.FooterMark4{
+    padding-top: 37px;
+}
+
+.FooterIcons{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.FooterIcon1{
+    float: left;
+    cursor: pointer;
+}
+.FooterIcon2{
+    cursor: pointer;
+}
+.FooterIcon3{
+    float: right;
+    cursor: pointer;
+}
+
+.FooterText1{
+    padding-top: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.FooterText2{
+    font-size: 18px;
+    color: #0584C7;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+
+
+.nav-item {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.nav-item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C81E28;
+  height: 5px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav-item:hover:before, .nav-item:focus:before, .nav-item:active:before {
+  right: 0;
+}
