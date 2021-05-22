@@ -1,32 +1,32 @@
 @font-face {
     font-family: roboto-bold;
-    src: url(../Fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: roboto-boldcondensed;
-    src: url(../Fonts/Roboto-BoldCondensed.ttf);
+    src: url(../fonts/Roboto-BoldCondensed.ttf);
 }
 
 @font-face {
     font-family: roboto-condensed;
-    src: url(../Fonts/Roboto-Condensed.ttf);
+    src: url(../fonts/Roboto-Condensed.ttf);
 }
 
 @font-face {
     font-family: roboto-light;
-    src: url(../Fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: roboto-medium;
-    src: url(../Fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
 }
 
 
 @font-face {
     font-family: roboto-regular;
-    src: url(../Fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 p{
@@ -503,6 +503,7 @@ span{
 
 .FooterText2{
     font-size: 18px;
+    font-family: roboto-medium;
     color: #0584C7;
     text-align: center;
     font-weight: 500;
