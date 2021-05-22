@@ -365,20 +365,19 @@ span{
 
 .HomeHeaderUnder{
     background-color: #1F7DAE;
-    padding-top: 50px;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding: 45px 50px;
     margin-top: -90px;
+    line-height: 1.9;
 }
 
 .HomeHeaderUnderText1{
     font-size: 20;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 .HomeHeaderUnderText2{
     margin-bottom: 0px;
-    padding-bottom: 50px;
     font-size: 20px;
     font-family: roboto-light;
     font-weight: 100;
@@ -389,6 +388,16 @@ span{
     height: 350px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.QuoteIcon1 {
+    float: left;
+    margin-top: 5px;
+}
+
+.QuoteText1 {
+    margin-left: 108px;
+    line-height: 1.2;
 }
 
 .image-text-wrapper {
@@ -406,10 +415,7 @@ span{
 
 .HomeHeaderUnderText3{
     font-size: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding: 45px 50px;
     background-color: #1E3C6E;
 }
 
