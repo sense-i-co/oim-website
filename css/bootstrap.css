@@ -4119,6 +4119,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   display: block;
+  height: 50px;
   padding: 0.5rem 1rem;
   color: #4c9be8;
   text-decoration: none;
