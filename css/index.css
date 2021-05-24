@@ -102,9 +102,10 @@ span{
 }
 
 .Loginfont{
-    font-size:14px;
-    line-height: 20px;
-    vertical-align: top;
+    font-family: roboto-regular;
+    font-size:12px;
+    font-weight: bold;
+    padding: 0 9px 0 0;
 }
 
 @media screen and (max-width: 1122px) {
