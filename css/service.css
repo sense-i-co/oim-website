@@ -10,8 +10,8 @@
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 0;
 }
 
 .ServicesHeader{
@@ -39,7 +39,43 @@
     text-align: justify;
 }
 
+.VisionBackground{
+    /* background-color: gray; */
+    width: 65%;
+}
 
+.VisionPanel{
+    background-color: #F2F3F4;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.VisionHeader{
+    margin-bottom: 50px;
+}
+
+.VisionTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.VisionShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.VisionHeading{
+    color: #4C4C4C;
+    font-family: roboto-light;
+    font-size: 20px;
+    text-align: justify;
+}
 
 .font-icon{
     font-size: 20px;
@@ -132,8 +168,8 @@
 
 .ServicesText1{
     color:#1E3C6E;
-    font-size: 24px;
-    font-family: roboto-boldcondensed;
+    font-size: 22px;
+    font-family: roboto-condensed;
     font-weight: bold;
     text-align: center;
     margin-bottom: 0px;

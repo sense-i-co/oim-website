@@ -103,7 +103,6 @@ span{
 
 .Loginfont{
     font-family: roboto-regular;
-    color: white;
     font-size:12px;
     font-weight: bold;
     padding: 0 9px 0 0;
@@ -240,7 +239,7 @@ span{
     width: 100%;
     padding-right: 0px;
     justify-content: flex-end;
-    margin-right: 103px;
+    margin-right: 90px;
 }
 
 .HomeNavbarLink1{
@@ -249,7 +248,7 @@ span{
 
 .HomeNavbarLink2{
     text-align: center;
-    padding-left: 18px;
+    padding-left: 32px;
     padding-right: 18px;
 }
 
@@ -284,12 +283,12 @@ span{
 .HomeNavbarText{
     text-transform: uppercase;
     color: #1E3C6E;
-    font-weight: bold;
-    font-family: roboto-boldcondensed;
-    padding-right: 7px;
-    padding-left: 7px;
+    font-weight: 100;
+    font-family: roboto-bold;
+    padding-right: 12px;
+    padding-left: 12px;
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .HomeHeaderImage{

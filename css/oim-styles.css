@@ -1,0 +1,684 @@
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-boldcondensed;
+    src: url(../fonts/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-condensed;
+    src: url(../fonts/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p{
+    font-family: roboto-regular;
+}
+
+div{
+    font-family: roboto-condensed;
+}
+
+h2{
+    font-family: roboto-regular;
+}
+
+h1{
+    font-family: roboto-boldcondensed;
+}
+
+h3{
+    font-family: roboto-condensed;
+}
+
+h4{
+    font-family: roboto-condensed;
+}
+
+h5{
+    font-family: roboto-condensed;
+}
+
+h6{
+    font-family: roboto-condensed;
+}
+
+span{
+    font-family: roboto-condensed;
+}
+.body{
+    background-color: white !important;
+    width: 100% !important;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+.HomeNavbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white !important;
+}
+
+.HomeMenu{
+    padding-top: 85px;
+    padding-left: 0px;
+    height: 135px;
+}
+
+.HomeLogo{
+    margin-left: 103px;
+    margin-right: 90px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 290px;
+
+}
+
+.HomeLogoImage{
+    width:290px;
+}
+
+.HomeLogoSmall{
+    display: none;
+}
+
+.Loginfont{
+    font-family: roboto-regular;
+    font-size:12px;
+    font-weight: bold;
+    padding: 0 9px 0 0;
+}
+
+@media screen and (max-width: 1122px) {
+    .HomeLogo{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+        display: none;
+    }
+    .HomeLogoSmall{
+        display: block;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .HomeLogo{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+        display: none;
+    }
+    .HomeLogoSmall{
+        display: block;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+    }
+    .HomeActive{
+        display: none;
+    }
+    .HomeRight{
+        width: 100%;
+        padding-right: 10px !important;
+    }
+    .HomeHeader {
+        width: 100%;
+        height: 380px !important;
+    }
+    .HomeHeaderTitle{
+        font-size: 24px !important;
+        padding-top: 10% !important;
+        margin-left: 25px !important;
+        font-weight: 900 !important;
+    }
+    .HomeHeaderShape{
+        margin-left: 25px !important;
+        padding-top: 5px !important;
+        background-color: #C81E28 !important;
+        opacity: 1;
+        width: 10%;
+    }
+    .HomeHeaderText2{
+        margin-left: 25px !important;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+        padding-top: 40px !important;
+    }
+    .HomeContent{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    .HomeHeaderUnder{
+        background-color: #007399;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -40px !important;
+    }
+    .HomeHeaderUnderText1{
+        font-size: 16px !important;
+        font-weight: 100;
+        text-align: justify;
+    }
+    .HomeHeaderUnderText2{
+        font-size: 18px !important;
+        margin-top: 40px !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 40px !important;
+        text-align: justify;
+    }
+    .HomeHeaderUnderImage{
+        width: 100%;
+        height: 20vh !important;
+    }
+    .HomeHeaderUnderText3{
+        font-size: 18px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #004d99;
+        text-align: justify;
+    }
+
+    .ContentBullets{
+        font-size: 18px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: transparent;
+        text-align: justify;
+    }
+
+    .ContentBackground{
+        /* background-color: gray; */
+        width: 100%;
+    }
+    
+    .ContentPanel{
+        background-color: white;
+        /* max-width: 1500px; */
+        margin: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    
+    .ContentHeader{
+        margin-bottom: 50px;
+    }
+    
+    .ContentTitle{
+        color: #1E3C6E;
+        font-weight: bold;
+    }
+    
+    .ContentShape{
+        padding: 3px;
+        background-color: #C81E28;
+        width: 100px;
+        opacity: 1 !important;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .ContentText{
+        color: #4C4C4C;
+        font-family: roboto-light;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .ContentImageBox{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10px !important;
+    }
+
+    .Footer{
+        margin-top: -30px !important;
+        background-color: #10537c;
+    }
+
+    .FooterMark{
+        padding-top: 30px !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        width: 100%;
+    }
+
+    .FooterIcons{
+        text-align: center;
+        margin-top: 30px !important;
+    }
+
+    .HomeConnect{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.ServicesBox{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.HomeRight{
+    width: 100%;
+    padding-right: 0px;
+    justify-content: flex-end;
+    margin-right: 90px;
+}
+
+.HomeNavbarLink1{
+    text-align: center;
+}
+
+.HomeNavbarLink2{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+.HomeNavbarLink3{
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.HomeNavbarLink4{
+    text-align: center;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+
+.HomeNavbarLink5{
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+.HomeNavbarLink6{
+    text-align: center;
+    padding-left: 24px;
+}
+
+
+.HomeNavbarText{
+    text-transform: uppercase;
+    color: #1E3C6E;
+    font-weight: 100;
+    font-family: roboto-bold;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.HomeHeaderImage{
+    width: 100%;
+    height: 800px;
+}
+
+.HomeActive{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: #C81E28;
+    height: 7px !important;
+    opacity: 1 !important;
+}
+
+.HomeNavbarLogin{
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-top: -8px;
+    font-size: 20px;
+    background-color: #1f7dae;
+    border-radius: 10px 10px 0% 0%;
+}
+.HomeNavbarPadding{
+    padding-bottom: 0px;
+}
+
+.HomeIcon{
+    font-size: 20px !important;
+    margin-left: 5px;
+
+}
+
+.HomeHeader{
+    background-image: url('../images/home_banner.png');
+    height: 675px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AboutBanner{
+    background-image: url('../images/about_banner.png');
+    height: 675px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerTitle{
+    font-size: 58px;
+    line-height: 1.3;
+    padding-top: 10%;
+    margin-left: 125px;
+    font-family: roboto-condensed;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px #333333;
+}
+
+.HomeHeaderTitle{
+    font-size: 60px;
+    line-height: 1.3;
+    padding-top: 10%;
+    margin-left: 125px;
+    font-family: roboto-boldcondensed;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #333333;
+}
+
+.BannerRedLine{
+    margin-left: 125px;
+    padding-top: 5px;
+    background-color: #C81E28;
+    opacity: 1;
+    width: 10%;
+}
+
+.BannerSubTitle{
+    margin-left: 125px;
+    line-height: 1.3;
+    font-family: roboto-condensed;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 6px #333;
+}
+
+.HomeHeaderText2{
+    margin-left: 100px;
+    line-height: 1.3;
+    font-family: roboto-condensed;
+    font-size: 28px;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px #333;
+}
+
+.HomeContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.HomeHeaderUnder{
+    background-color: #1F7DAE;
+    padding: 45px 50px;
+    margin-top: -90px;
+    line-height: 1.9;
+}
+
+.HomeHeaderUnderText1{
+    font-size: 20;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.HomeHeaderUnderText2{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: roboto-light;
+    font-weight: 100;
+}
+
+.HomeHeaderUnderImage{
+    width: 100%;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.QuoteIcon1 {
+    float: left;
+    margin-top: 5px;
+}
+
+.QuoteText1 {
+    margin-left: 108px;
+    line-height: 1.5;
+}
+
+.BulletTextPanel {
+    line-height: 1.8;
+}
+
+.BulletIcon1 {
+    float: left;
+    margin: 1% 8px 0 0;
+    padding: 5px 0 0 0;
+}
+
+.BulletIcon3 {
+    list-style-image: url(../images/bullet-icon1.png);
+}
+
+.BulletTextWrapper {
+    display: flex;
+}
+
+.BulletTextBold {
+    color: #1E3C6E;
+    font-family: roboto-regular;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: justify;
+
+}
+
+.BulletText1 {
+    color: #4C4C4C;
+    font-family: roboto-light;
+    font-size: 20px;
+    text-justify: left;
+    line-height: 10%;
+}
+
+.LinkWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    padding-right: 125px;
+}
+
+.DownLoadPDF {
+    float: right;
+    line-height: 1;
+    font-family: roboto-regular;
+    color: #1E3C6E;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-bottom: 100px;
+    
+}
+
+
+.image-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.HomeHeaderUnderText3{
+    font-size: 30px;
+    padding: 45px 50px;
+    background-color: #1E3C6E;
+}
+
+.ContentImageBox{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+}
+
+.ContentImage{
+    width: 100%;
+
+}
+
+.Footer{
+    width: 100%;
+    margin-top: -65px;
+    background-color: #0d3a70;
+    border-top: 8px solid #1f7dae;
+}
+
+.FooterMarks{
+    text-align: center;
+}
+
+.FooterMark{
+    padding-top: 50px;
+    padding-left: 22%;
+    padding-right: 22%;
+    width: 100%;
+}
+.FooterMark1{
+    padding-top: 20px;
+}
+
+.FooterMark2{
+    padding-top: 20px;
+}
+.FooterMark3{
+    padding-top: 23px;
+}
+
+.FooterMark4{
+    padding-top: 37px;
+}
+
+.FooterIcons{
+    text-align: center;
+    margin-top: 70px;
+}
+.large-footer-icon {
+    width: 30%;
+}
+
+.small-footer-icon {
+    width: 20%;
+}
+
+.HomeConnect {
+    width: 45%;
+}
+
+.HomeConnectPadding {
+    width: 27.5%;
+}
+
+.FooterIcon1{
+    float: left;
+    cursor: pointer;
+}
+.FooterIcon2{
+    cursor: pointer;
+}
+.FooterIcon3{
+    float: right;
+    cursor: pointer;
+}
+
+.FooterText1{
+    padding-top: 60px;
+    font-size: 18px;
+    font-family: roboto-light;
+    color: white;
+    text-align: center;
+}
+
+.FooterText2{
+    font-size: 18px;
+    font-family: roboto-medium;
+    color: #0584C7;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+
+.nav-item {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+}
+.nav-item-selected {
+  background-color: transparent;
+}
+.nav-item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C81E28;
+  height: 5px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav-item:hover:before, .nav-item:focus:before, .nav-item:active:before, .navbar-nav:not(:hover) .nav-item-selected:before {
+  right: 0;
+}
