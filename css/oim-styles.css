@@ -69,7 +69,7 @@ span{
     width: 100% !important;
     max-width:1200px;
     margin:auto;
-
+    margin-bottom: 0;
 }
 
 .HomeNavbar{
@@ -285,6 +285,7 @@ span{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .HomeRight{
     width: 100%;
     padding-right: 0px;
@@ -479,6 +480,303 @@ span{
     line-height: 1.5;
 }
 
+
+.ServicesBackground{
+    /* background-color: gray; */
+    width: 100%;
+}
+
+.ServicesPanel{
+    background-color: white;
+    /* max-width: 1500px; */
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.ServicesHeader{
+    margin-bottom: 50px;
+}
+
+.ServicesTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.ServicesShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ServicesHeading{
+    color: #4C4C4C;
+    font-family: roboto-light;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.VisionBackground{
+    /* background-color: gray; */
+    width: 100%;
+}
+
+.VisionPanel{
+    background-color: #F2F3F4;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 100px;
+    padding-bottom: 3%;
+}
+
+.VisionHeader{
+    margin-bottom: 50px;
+}
+
+.VisionTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.VisionShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.VisionHeading{
+    color: #4C4C4C;
+    font-family: roboto-light;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.TeamPanel{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.TeamHeader{
+    margin-bottom: 50px;
+}
+
+.TeamTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.TeamShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.TeamGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+    margin: 0 50px 50px 0;
+}
+
+.portfolio-img-background {
+    height: 400px;
+    width: 286px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-text-wrapper {
+    position: absolute;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 290px 20px 0 20px;
+}
+
+.TeamMem {
+
+}
+
+.TeamMemName {
+    color: white;
+    font-family: roboto-condensed;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.TeamMemTitle {
+    color: white;
+    font-family: roboto-condensed;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.font-icon{
+    font-size: 20px;
+    color: #006699;
+    font-weight: 800;
+}
+
+.ServicesGrid{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.ServicesCard1{
+    margin-left: 8%;
+    margin-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 12px 10px grey;
+}
+
+.ServicesCard2{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ServicesCard3{
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 12px 10px grey;
+}
+
+@media screen and (max-width: 700px) {
+    .ServicesCard1{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+    .ServicesCard2{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+    .ServicesCard3{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 10px 12px 10px grey;
+    }
+}
+
+.ServicesCardBody{
+    padding: 0px !important;
+    text-align: center;
+}
+
+.ServicesImage{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 6px;
+}
+
+.ServicesUrl{
+    cursor: pointer;
+}
+
+.ServicesTextBox{
+    border-bottom: none;
+    padding-bottom: 0px;
+    height:70px;
+}
+
+.ServiceImageHr{
+    margin-top: 0px;
+    height: 4px !important;
+    background-color: transparent;
+    margin-bottom: 0px;
+    opacity:1 !important;
+}
+
+.ServicesText1{
+    color:#1E3C6E;
+    font-size: 22px;
+    font-family: roboto-condensed;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.ServicesText2{
+    color:#006699;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.ServicesTextBoxIcon{
+    font-size: 75px;
+    color: white;
+    margin-top: -45px;
+    position: relative;
+    height: 50px;
+}
+
+.ServicesCardBody {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.ServicesCardBody:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C81E28;
+  height: 6px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.ServicesCardBody:hover:before, .ServicesCardBody:focus:before, .ServicesCardBody:active:before {
+  right: 0;
+}
+
 .BulletTextPanel {
     line-height: 1.8;
 }
@@ -518,6 +816,7 @@ span{
 .LinkWrapper {
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px;
     margin-bottom: 10px;
     padding-right: 125px;
 }
@@ -525,13 +824,13 @@ span{
 .DownLoadPDF {
     float: right;
     line-height: 1;
-    font-family: roboto-regular;
+    font-family: roboto-condensed;
     color: #1E3C6E;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-right: 35px;
     margin-bottom: 100px;
     

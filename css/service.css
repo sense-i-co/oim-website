@@ -41,7 +41,7 @@
 
 .VisionBackground{
     /* background-color: gray; */
-    width: 65%;
+    width: 100%;
 }
 
 .VisionPanel{
@@ -76,6 +76,39 @@
     font-size: 20px;
     text-align: justify;
 }
+
+.TeamPanel{
+    background-color: transparent;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.TeamHeader{
+    margin-bottom: 50px;
+}
+
+.TeamTitle{
+    color: #1E3C6E;
+    font-weight: bold;
+}
+
+.TeamShape{
+    padding: 3px;
+    background-color: #C62127;
+    width: 100px;
+    opacity: 1 !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.TeamGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 
 .font-icon{
     font-size: 20px;
